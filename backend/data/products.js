@@ -73,11 +73,4 @@ const products = [
   },
 ];
 
-// const sampleProducts = products.map((product) => {
-//   return { ...product, user: 'akkkkkkk' };
-// });
-
-//console.log(sampleProducts);
-// module.exports = products; -common js
-
 export default products;
