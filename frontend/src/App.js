@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
-import CartScreen from './screens/CartScreen';
+
+import LoginScreen from './screens/LoginScreen';
+import RegisterScreen from './screens/RegisterScreen';
+import FundDetailScreen from './screens/FundDetailScreen';
 
 function App(props) {
   return (
@@ -13,8 +15,9 @@ function App(props) {
       <main className='py-3'>
         <Container>
           <Route path='/' component={HomeScreen} exact />
-          <Route path='/product/:id' component={ProductScreen} exact />
-          <Route path='/cart/:id?' component={CartScreen} exact />
+          <Route path='/fund/:id' component={FundDetailScreen} exact />
+          <Route path='/login' component={LoginScreen} exact />
+          <Route path='/reigster' component={RegisterScreen} exact />
         </Container>
       </main>
       <Footer />

@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  Button,
-  FormControl,
-} from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 function Header() {
@@ -17,7 +9,7 @@ function Header() {
         <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
           <Container>
             <LinkContainer to='/'>
-              <Navbar.Brand>ProShop</Navbar.Brand>
+              <Navbar.Brand>EDUFUND</Navbar.Brand>
             </LinkContainer>
 
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -25,7 +17,7 @@ function Header() {
               <Nav className='ml-auto'>
                 <LinkContainer to='/cart'>
                   <Nav.Link>
-                    <i className='fas fa-shopping-cart'></i> Cart
+                    <i className='fas fa-shopping-cart'></i> About
                   </Nav.Link>
                 </LinkContainer>
 

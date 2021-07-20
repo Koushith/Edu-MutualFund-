@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import Product from '../components/Product';
+import Fund from '../components/Fund';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { listProducts } from '../actions/productActions';
@@ -19,7 +19,7 @@ function HomeScreen(props) {
 
   return (
     <>
-      <h1>Latest products</h1>
+      <h1>Popular Funds</h1>
       {loading ? (
         <Loader />
       ) : error ? (
@@ -29,7 +29,7 @@ function HomeScreen(props) {
           <Row>
             {products.map((product) => (
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-                <Product product={product} />
+                <Fund product={product} />
               </Col>
             ))}
           </Row>

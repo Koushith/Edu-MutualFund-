@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
-import Rating from './Rating';
 
-function product({ product }) {
+function Fund({ product }) {
   return (
     <Card className='my-3 p-3 rounded'>
       <Link to={`/product/${product._id}`}>
@@ -17,12 +16,7 @@ function product({ product }) {
           </Card.Title>
         </Link>
 
-        <Card.Text as='div'>
-          <Rating
-            value={product.rating}
-            text={`${product.numReviews} reviews`}
-          />
-        </Card.Text>
+        <Card.Text as='div'>{/* <Rating value={product.rating} text={`${product.numReviews} reviews`} /> */}</Card.Text>
 
         <Card.Text as='h3'>${product.price}</Card.Text>
       </Card.Body>
@@ -30,4 +24,4 @@ function product({ product }) {
   );
 }
 
-export default product;
+export default Fund;

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Rating from '../components/Rating';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 //import products from '../product';
@@ -8,17 +7,9 @@ import Loader from '../components/Loader';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProductDetails } from '../actions/productActions';
 import { Link } from 'react-router-dom';
-import {
-  Row,
-  Col,
-  Image,
-  ListGroup,
-  Card,
-  Button,
-  Form,
-} from 'react-bootstrap';
+import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap';
 
-function ProductScreen({ history, match }) {
+function FundDetailScreen({ history, match }) {
   const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
   const productDetail = useSelector((state) => state.productDetails);
@@ -58,16 +49,11 @@ function ProductScreen({ history, match }) {
                 <h3>{product.name}</h3>
               </ListGroup.Item>
               <ListGroup.Item>
-                <Rating
-                  value={product.rating}
-                  text={`${product.numReviews} reviews`}
-                />
+                {/* <Rating value={product.rating} text={`${product.numReviews} reviews`} /> */}
               </ListGroup.Item>
 
               <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-              <ListGroup.Item>
-                Description: {product.description}
-              </ListGroup.Item>
+              <ListGroup.Item>Description: {product.description}</ListGroup.Item>
             </ListGroup>
           </Col>
 
@@ -84,9 +70,7 @@ function ProductScreen({ history, match }) {
               <ListGroup.Item>
                 <Row>
                   <Col>Status:</Col>
-                  <Col>
-                    {product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}
-                  </Col>
+                  <Col>{product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}</Col>
                 </Row>
               </ListGroup.Item>
 
@@ -95,11 +79,7 @@ function ProductScreen({ history, match }) {
                   <Row>
                     <Col>QTY:</Col>
                     <Col>
-                      <Form.Control
-                        as='select'
-                        value={qty}
-                        onChange={(e) => setQty(e.target.value)}
-                      >
+                      <Form.Control as='select' value={qty} onChange={(e) => setQty(e.target.value)}>
                         {[...Array(product.countInStock).keys()].map((x) => (
                           <option key={x + 1} value={x + 1}>
                             {x + 1}
@@ -129,4 +109,4 @@ function ProductScreen({ history, match }) {
   );
 }
 
-export default ProductScreen;
+export default FundDetailScreen;

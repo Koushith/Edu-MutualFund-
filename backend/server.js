@@ -2,17 +2,24 @@ import path from 'path';
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-
+import userRoutes from './routes/userRoutes.js';
 import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
 
+// initilizations
 const app = express();
 dotenv.config();
 connectDB();
 
+// middleware to read the form data
+app.use(express.json());
 app.get('/', (req, res) => {
   res.send('API is running');
 });
 
+// all routes
+app.use('/api/users', userRoutes);
+
+// path not found- middleware
 app.use(notFound);
 app.use(errorHandler);
 

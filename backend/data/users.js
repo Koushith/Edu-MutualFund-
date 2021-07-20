@@ -5,19 +5,19 @@ const users = [
     name: 'Admin User koushith',
     email: 'admin@example.com',
     password: bcrypt.hashSync('123456', 10),
-    gender: male,
+    gender: 'male',
   },
   {
     name: 'John Doe',
     email: 'john@example.com',
     password: bcrypt.hashSync('123456', 10),
-    gender: male,
+    gender: 'male',
   },
   {
     name: 'Jane Doe',
     email: 'jane@example.com',
     password: bcrypt.hashSync('123456', 10),
-    gender: female,
+    gender: 'female',
   },
 ];
 

@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import bcrypt from 'bcryptjs';
 
 const userSchema = mongoose.Schema(
   {
@@ -16,7 +17,7 @@ const userSchema = mongoose.Schema(
       required: true,
     },
     gender: {
-      type: string,
+      type: String,
       required: true,
     },
   },
@@ -24,6 +25,12 @@ const userSchema = mongoose.Schema(
     timestamps: true,
   }
 );
+
+// using bcrypt -  this is to compare the plain password with encrypted password
+
+userSchema.methods.matchPassword = async function (plainPassword) {
+  return await bcrypt.compare(plainPassword, this.password);
+};
 
 const User = mongoose.model('User', userSchema);
 
