@@ -32,6 +32,15 @@ const importData = async () => {
     process.exit(1);
   }
 };
+const destroyData = async () => {
+  try {
+    await User.deleteMany();
+  } catch (err) {
+    console.log(err);
+
+    process.exit(1);
+  }
+};
 
 if (process.argv[2] === '-d') {
   destroyData();
