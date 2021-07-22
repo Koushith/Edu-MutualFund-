@@ -20,7 +20,7 @@ const authUser = asyncHandler(async (req, res) => {
     });
   } else {
     res.status(401);
-    throw new Error('Invalid user name or passowrd');
+    throw new Error('Invalid user name or password');
   }
 });
 
@@ -28,14 +28,16 @@ const authUser = asyncHandler(async (req, res) => {
 // @route Post /api/users
 // @access Public
 
-const registerUser = asyncHandler(async (req, res) => {});
+const registerUser = asyncHandler(async (req, res) => {
+  res.send('register new user');
+});
 
 // @desc send token in header from frontend and return loggedin user
 //  @route GET /api/user/profile
 //  @access Private
 
 const getUserProfile = asyncHandler(async (req, res) => {
-  res.send('user profile');
+  res.send('user profile..');
 });
 
 // @desc update the profile
