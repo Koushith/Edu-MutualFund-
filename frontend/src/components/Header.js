@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown, Form, Button, FormControl, Col } from 'react-bootstrap';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
@@ -26,6 +26,19 @@ function Header() {
             </LinkContainer>
 
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
+
+            <Form className='form-inline my-2 my-lg-0 '>
+              <Form.Control
+                className='form-control mr-sm-2'
+                type='search'
+                placeholder='Search'
+                aria-label='Search'
+              ></Form.Control>
+              <Button type='submit' variant='success'>
+                Search
+              </Button>
+            </Form>
+
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='ml-auto'>
                 {userInfo ? (

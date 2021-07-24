@@ -9,6 +9,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import LoginScreen from './components/screens/LoginScreen';
 import RegisterScreen from './components/screens/RegisterScreen';
+import FundDetails from './components/screens/funds.screens/fund-details.screen';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
 
           <Route path='/featurerequest' exact component={FeatureRequest} />
           <Route path='/profile' exact component={ProfileScreen} />
-
+          <Route path='/fund/:id' component={FundDetails} />
           <Route path='/login' exact component={LoginScreen} />
           <Route path='/register' exact component={RegisterScreen} />
         </Container>
