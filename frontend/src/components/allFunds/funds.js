@@ -2661,9 +2661,3 @@ export const funds = [
     ],
   },
 ];
-
-export const users = [
-  { firstName: 'Susan', lastName: 'Steward' },
-  { firstName: 'Daniel', lastName: 'Longbottom' },
-  { firstName: 'Jacob', lastName: 'Black' },
-];

@@ -9,7 +9,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import LoginScreen from './components/screens/LoginScreen';
 import RegisterScreen from './components/screens/RegisterScreen';
-import FundDetails from './components/screens/funds.screens/fund-details.screen';
+import FundDetails from './components/screens/funds/fund-details.screen';
 
 function App() {
   return (

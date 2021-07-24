@@ -30,7 +30,7 @@ function Header() {
             <Form className='form-inline my-2 my-lg-0 '>
               <Form.Control
                 className='form-control mr-sm-2'
-                type='search'
+                type='text'
                 placeholder='Search'
                 aria-label='Search'
               ></Form.Control>
