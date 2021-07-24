@@ -1,5 +1,8 @@
-const funds = [
+import { v4 as uuidv4 } from 'uuid';
+
+export const funds = [
   {
+    id: uuidv4(),
     name: 'ICICI Prudential Technology Direct Plan Growth',
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
@@ -265,6 +268,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'Baroda Banking & PSU Bond Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/BARODAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -530,6 +534,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'BOI AXA Arbitrage Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/BHARTIAXAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -795,6 +800,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'Aditya Birla Sun Life Arbitrage Fund - Direct Plan - Growth',
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
@@ -1060,6 +1066,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'BNP Paribas Arbitrage Fund - Direct Plan - Adhoc IDCW',
     logo: 'https://coin.zerodha.com/images/fund_houses/BNPPARIBAS_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -1325,6 +1332,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'Edelweiss Aggressive Hybrid Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/EDELWEISSMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -1590,6 +1598,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'HDFC Arbitrage Fund - Wholesale Plan - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/HDFCMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -1855,6 +1864,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'HSBC Asia Pacific Dividend Yield Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/HSBCMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -2120,6 +2130,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'ICICI Prudential Bluechip Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/ICICIPrudentialMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
@@ -2385,6 +2396,7 @@ const funds = [
   },
 
   {
+    id: uuidv4(),
     name: 'Axis All Seasons Debt Fund of Funds - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/AXISMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',

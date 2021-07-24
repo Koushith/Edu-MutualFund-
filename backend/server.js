@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import userRoutes from './routes/userRoutes.js';
+import fundRoutes from './routes/fundRoutes.js';
 import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
 
 // initilizations
@@ -19,6 +20,9 @@ app.get('/', (req, res) => {
 
 // all routes
 app.use('/api/users', userRoutes);
+
+// get all funds
+app.use('/api/funds', fundRoutes);
 
 // path not found- middleware
 app.use(notFound);
