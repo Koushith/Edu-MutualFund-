@@ -53,9 +53,21 @@ cd frontend
 npm start
 
 ```
-### Nav data is provided by OpenWeatherMap API - 
 
-#### Quick Loom Video instruction to run the application- https://www.loom.com/share/ea919f1d9a704f20b04d381744d67b85
+
+
+### Development Process
+
+- i have live streatmed a bit you can check it here - https://youtu.be/qjJs25Mtgyk
+
+- Frontend Preview - https://www.youtube.com/watch?v=TsTrq0UMmh0
+
+
+
+### Nav data is provided by  API - 
+
+TBU--------------------
+
 
 
 
