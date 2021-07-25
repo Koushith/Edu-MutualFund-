@@ -11,8 +11,6 @@ export const getAllFunds = () => async (dispatch) => {
       data: { funds },
     } = await axios.get('/api/funds');
 
-    console.log('Funds', funds);
-
     dispatch({
       type: FUND_LISTS_SUCCESS,
       payload: funds,

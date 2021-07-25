@@ -7,7 +7,7 @@ export const funds = [
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 5.0,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -273,7 +273,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/BARODAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -539,7 +539,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/BHARTIAXAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 3,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -805,7 +805,7 @@ export const funds = [
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4.1,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1071,7 +1071,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/BNPPARIBAS_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 5,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1337,7 +1337,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/EDELWEISSMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 2.5,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1603,7 +1603,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/HDFCMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1869,7 +1869,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/HSBCMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 3.2,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -2135,7 +2135,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/ICICIPrudentialMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -2401,7 +2401,7 @@ export const funds = [
     logo: 'https://coin.zerodha.com/images/fund_houses/AXISMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 2,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [

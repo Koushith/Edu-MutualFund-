@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-  getUserDetails,
-  updateUserProfile,
-} from '../../redux/actions/userActions';
+import { getUserDetails, updateUserProfile } from '../../redux/actions/userActions';
 import { Table, Form, Button, Row, Col, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
@@ -23,8 +20,6 @@ function ProfileScreen({ history }) {
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
-
-  console.log('user info from profile', userInfo);
 
   const userUpdateProfile = useSelector((state) => state.userUpdateProfile);
   const { success } = userUpdateProfile;

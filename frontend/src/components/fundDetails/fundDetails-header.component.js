@@ -5,25 +5,16 @@ import Rating from '../Rating';
 function DetailsHeading() {
   return (
     <>
-      <Image src={`https://groww.in/images/partners/icici_groww.svg`} alt='name' fluid />
-      <h3 className='mt-5'>ICICI Prudential Technology Direct Plan Growth</h3>
+      <Image src={'logo'} alt='logo' fluid />
+      <h3 className='mt-5'>icicic</h3>
 
       <div>
         <Badge variant='success' style={{ marginRight: '4px' }}>
-          Success
-        </Badge>
-        <Badge variant='success' style={{ marginRight: '4px' }}>
-          Success
-        </Badge>
-        <Badge variant='success' style={{ marginRight: '4px' }}>
-          Success
-        </Badge>
-        <Badge variant='success' style={{ marginRight: '4px' }}>
-          Success
+          dddd
         </Badge>
       </div>
       <div className='mt-4'>
-        <Rating value='rating' text={`5 reviews`} />
+        <Rating value={4} text={`Top Rated`} />
       </div>
     </>
   );

@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export const funds = [
+const funds = [
   {
-    id: uuidv4(),
+    id: 103362,
     name: 'ICICI Prudential Technology Direct Plan Growth',
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 5.0,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -268,12 +268,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103363,
     name: 'Baroda Banking & PSU Bond Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/BARODAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -534,12 +534,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103364,
     name: 'BOI AXA Arbitrage Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/BHARTIAXAMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 3,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -800,12 +800,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103365,
     name: 'Aditya Birla Sun Life Arbitrage Fund - Direct Plan - Growth',
     logo: 'https://groww.in/images/partners/icici_groww.svg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4.1,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1066,12 +1066,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103366,
     name: 'BNP Paribas Arbitrage Fund - Direct Plan - Adhoc IDCW',
     logo: 'https://coin.zerodha.com/images/fund_houses/BNPPARIBAS_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 5,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1332,12 +1332,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103367,
     name: 'Edelweiss Aggressive Hybrid Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/EDELWEISSMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 2.5,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1598,12 +1598,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103368,
     name: 'HDFC Arbitrage Fund - Wholesale Plan - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/HDFCMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -1864,12 +1864,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103369,
     name: 'HSBC Asia Pacific Dividend Yield Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/HSBCMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 3.2,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -2130,12 +2130,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103310,
     name: 'ICICI Prudential Bluechip Fund - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/ICICIPrudentialMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 4,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -2396,12 +2396,12 @@ export const funds = [
   },
 
   {
-    id: uuidv4(),
+    id: 103311,
     name: 'Axis All Seasons Debt Fund of Funds - Direct Plan - Growth',
     logo: 'https://coin.zerodha.com/images/fund_houses/AXISMUTUALFUND_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
-    rating: '5.0',
+    rating: 2,
     schemeCode: 103362,
     desc: 'The scheme will seek long term capital appreciation by investing in equity and equity related securities of technology and technology dependent companies. A large share of the AUM will be invested in the stocks under the Benchmark Index, however, the scheme may also invest in other companies which form a part of Information Technology Services Industry.',
     graphData: [
@@ -2661,3 +2661,5 @@ export const funds = [
     ],
   },
 ];
+
+export default funds;
