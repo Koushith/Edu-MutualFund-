@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { fundListReducer } from './reducers/fundReducers';
+import { fundListReducer, productDetailsReducer } from './reducers/fundReducers';
 import {
   loginReducer,
   userRegisterReducer,
@@ -18,6 +18,7 @@ const reducer = combineReducers({
   userDetails: userDetailsReducer,
   userUpdateProfile: userUpdateProfileReducer,
   fundLists: fundListReducer,
+  fundDetail: productDetailsReducer,
 });
 
 /**

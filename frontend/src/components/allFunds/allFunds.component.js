@@ -56,33 +56,6 @@ function AllFunds() {
         </>
       )}
     </>
-    // <>
-    //   <h1>Top Performing Funds</h1>
-    //   {allFunds.map((fund) => (
-    //     <Card className='my-3 p-3 rounded'>
-    //       <Link to={`/fund/${fund.id}`}>
-    //         <Card.Img src={fund.logo} variant='top' />
-    //       </Link>
-
-    //       <Card.Body>
-    //         <Link to={`/fund/${fund.id}`}>
-    //           <Card.Title as='div'>
-    //             <strong>{fund.name}</strong>
-    //           </Card.Title>
-    //         </Link>
-
-    //         <Card.Text as='div'>
-    //           {/* <Rating
-    //              value={fund.rating}
-    //              text={`${product.numReviews} reviews`}
-    //            /> */}
-    //         </Card.Text>
-
-    //         {/* <Card.Text as='h3'>${product.price}</Card.Text> */}
-    //       </Card.Body>
-    //     </Card>
-    //   ))}
-    // </>
   );
 }
 

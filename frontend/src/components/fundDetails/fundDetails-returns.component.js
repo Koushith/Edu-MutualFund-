@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Returns() {
+function Returns({ singleFund }) {
   return (
     <div style={{ textAlign: 'right' }}>
-      <h3>120% Returns </h3> <span>in 1year</span>
+      <h3>{singleFund.oneYearReturns} Returns </h3> <span>in 1year</span>
     </div>
   );
 }
