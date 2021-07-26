@@ -1,6 +1,26 @@
 # EDUFUND- A POC for Mutual Fund application
 
+![Desktop - 1](https://user-images.githubusercontent.com/30016242/126997713-0a2e7dbc-16fd-4f2b-b50d-d1bc0b8cb6e9.png)
+![Desktop - 2](https://user-images.githubusercontent.com/30016242/126997749-e1b00567-6f3c-4f65-8b40-bd4fae46087f.png)
+![Desktop - 3](https://user-images.githubusercontent.com/30016242/126997792-b5424df5-7ffe-4168-9404-85c2ed76fd9d.png)
+![Desktop - 4](https://user-images.githubusercontent.com/30016242/126997813-64888050-d670-40dd-9119-ba4c995a924a.png)
+![Desktop - 5](https://user-images.githubusercontent.com/30016242/126997842-7c68f20b-acf9-4d47-8908-bbf1c31a4856.png)
 
+## Demo user Account- 
+
+use this credentials to login after installing the dependency or create new account.
+
+```
+Email - demouser@example.com
+password- demouser
+```
+
+## Tech Stack
+
+- React
+- Redux
+- Node/Express
+- MongoDB
 
 ## Installation
 
