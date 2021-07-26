@@ -68,6 +68,35 @@ npm start
 
 TBU--------------------
 
+# RESTAPI ENDPOINTS
+
+
+
+## Open Endpoints
+
+Open endpoints require no Authentication.
+
+* [Login]() : `POST /api/user/login/`
+* [Register]() : `POST /api/user/register/`
+
+## Endpoints that require Authentication
+
+Closed endpoints require a valid Token to be included in the header of the
+request. A Token can be acquired from the Login view above.
+
+* [get all Funds]() : `POST /api/funds/`
+* [get FundsById]() : `POST /api/funds/:id`
+* [get FundsByQueryParams]() : `POST /api/funds/q=?"xxx"`
+* [Profile]() : `POST /api/user/profile/`
+
+
+### Current User related
+
+Each endpoint manipulates or displays information related to the User whose
+Token is provided with the request:
+
+* [Profile]() : `POST /api/user/profile/`
+* [Update info]() : `PUT /api/user/profile/:id`
 
 
 
