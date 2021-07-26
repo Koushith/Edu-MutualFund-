@@ -6,7 +6,7 @@
 ![Desktop - 4](https://user-images.githubusercontent.com/30016242/126997813-64888050-d670-40dd-9119-ba4c995a924a.png)
 ![Desktop - 5](https://user-images.githubusercontent.com/30016242/126997842-7c68f20b-acf9-4d47-8908-bbf1c31a4856.png)
 
-## Demo user Account- 
+## Demo user Account- hosted link- https://edufundapp.herokuapp.com/
 
 use this credentials to login after installing the dependency or create new account.
 
