@@ -79,7 +79,7 @@ npm start
 
 ### Development Process
 
-- i have live streatmed a bit you can check it here - https://youtu.be/qjJs25Mtgyk
+- i have live streatmed a bit you can check it here - https://www.youtube.com/watch?v=qjJs25Mtgyk&list=PLJjt4th9GzRMsna27R08eEPugHoLpQ5rd
 
 - Frontend Preview - https://www.youtube.com/watch?v=TsTrq0UMmh0
 
