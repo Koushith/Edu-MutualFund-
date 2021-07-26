@@ -19,6 +19,7 @@ password- demouser
 
 - React
 - Redux
+- ApexCharts
 - Node/Express
 - MongoDB
 
