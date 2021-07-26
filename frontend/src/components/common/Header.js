@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Navbar, Nav, Container, NavDropdown, Form, Button, FormControl, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown, Form, Button } from 'react-bootstrap';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
-import { logout } from '../redux/actions/userActions';
-import { SearchContext } from '../redux/context/searchContext';
+import { logout } from '../../redux/actions/userActions';
+import { SearchContext } from '../../redux/context/searchContext';
 
 function Header() {
   const [search, setSearch] = useState('');
@@ -63,9 +63,6 @@ function Header() {
                       <NavDropdown.Item>Profile</NavDropdown.Item>
                     </LinkContainer>
 
-                    <LinkContainer to='/addpost'>
-                      <NavDropdown.Item>About</NavDropdown.Item>
-                    </LinkContainer>
                     <LinkContainer to='/featurerequest'>
                       <NavDropdown.Item>Feature Request</NavDropdown.Item>
                     </LinkContainer>

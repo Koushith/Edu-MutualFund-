@@ -4,9 +4,9 @@ import { Card } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAllFunds } from '../../redux/actions/fundActions';
-import Loader from '../Loader';
-import Message from '../Message';
-import Rating from '../Rating';
+import Loader from '../common/Loader';
+import Message from '../common/Message';
+import Rating from '../common/Rating';
 import { SearchContext } from '../../redux/context/searchContext';
 
 function AllFunds() {

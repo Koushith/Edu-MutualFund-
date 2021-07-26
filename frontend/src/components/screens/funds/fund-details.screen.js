@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
-import Message from '../../Message';
-import Loader from '../../Loader';
-import HistoricChart from '../../../components/fundDetails/historic.chart.component';
+import Message from '../../../components/common/Message';
+import Loader from '../../../components/common/Loader';
+import HistoricChart from '../../../components/fundDetails/historic-chart.component';
 import DetailsHeading from '../../fundDetails/fundDetails-header.component';
 import { fundDetail } from '../../../redux/actions/fundActions';
 import { useDispatch, useSelector } from 'react-redux';

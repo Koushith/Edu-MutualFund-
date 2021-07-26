@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
-import FeatureRequest from './components/screens/FeatureRequest';
-import HomeScreen from './components/screens/HomeScreen';
-import ProfileScreen from './components/screens/ProfileScreen';
+import FeatureRequest from './components/screens/featureRequest/feature-request.screen';
+import HomeScreen from './components/screens/home/home.screen';
+import ProfileScreen from './components/screens/profile/ProfileScreen';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import LoginScreen from './components/screens/LoginScreen';
-import RegisterScreen from './components/screens/RegisterScreen';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
+import LoginScreen from './components/screens/authScreens/login.screen';
+import RegisterScreen from './components/screens/authScreens/register.screen';
 import FundDetails from './components/screens/funds/fund-details.screen';
 
 function App() {

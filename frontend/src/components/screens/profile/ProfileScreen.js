@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { getUserDetails, updateUserProfile } from '../../redux/actions/userActions';
+import { getUserDetails, updateUserProfile } from '../../../redux/actions/userActions';
 import { Table, Form, Button, Row, Col, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import Message from '../Message';
-import Loader from '../Loader';
+import Message from '../../common/Message';
+import Loader from '../../common/Loader';
 
 function ProfileScreen({ history }) {
   const [name, setName] = useState('');

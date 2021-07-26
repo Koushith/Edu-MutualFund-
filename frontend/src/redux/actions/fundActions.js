@@ -8,6 +8,10 @@ import {
   FUND_DETAILS_FAIL,
 } from '../constants/fundConstants';
 
+/**
+ *  get all funds avaliable and set it to local storage for quick retrival
+ */
+
 export const getAllFunds = () => async (dispatch) => {
   try {
     dispatch({
@@ -32,6 +36,9 @@ export const getAllFunds = () => async (dispatch) => {
   }
 };
 
+/**
+ *  get a single fund detail based on fund ID
+ */
 export const fundDetail = (id) => async (dispatch) => {
   try {
     dispatch({ type: FUND_DETAILS_REQUEST });

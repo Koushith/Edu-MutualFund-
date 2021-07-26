@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { Form, Button, Row, Col } from 'react-bootstrap';
-import FormContainer from '../FormContainer';
-import { login } from '../../redux/actions/userActions';
-import Message from '../Message';
-import Loader from '../Loader';
+import FormContainer from '../../common/FormContainer';
+import { login } from '../../../redux/actions/userActions';
+import Message from '../../common/Message';
+import Loader from '../../common/Loader';
 
 function LoginScreen({ history, location }) {
   const [password, setPassword] = useState('');
@@ -66,10 +66,7 @@ function LoginScreen({ history, location }) {
 
       <Row className='py-3'>
         <Col>
-          New Customer?{' '}
-          <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
-            Register
-          </Link>
+          New Customer? <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>Register</Link>
         </Col>
       </Row>
     </FormContainer>

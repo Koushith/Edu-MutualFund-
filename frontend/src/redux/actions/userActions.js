@@ -15,6 +15,10 @@ import {
   USER_UPDATE_PROFILE_SUCCESS,
 } from '../constants/userConstants';
 
+/**
+ *  login- Public route- pass email, password
+ */
+
 export const login = (email, password) => async (dispatch) => {
   try {
     dispatch({
@@ -44,6 +48,10 @@ export const login = (email, password) => async (dispatch) => {
     });
   }
 };
+
+/**
+ *  lohout- clear the local storage and redirect to login page
+ */
 
 export const logout = () => async (dispatch) => {
   localStorage.removeItem('userInfo');
@@ -78,6 +86,10 @@ export const registerUser = (name, email, password) => async (dispatch) => {
     });
   }
 };
+
+/**
+ *  profile- Protectes route- need auth token to access.
+ */
 
 export const getUserDetails = (id) => async (dispatch, getState) => {
   try {
@@ -115,6 +127,10 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
     });
   }
 };
+
+/**
+ *  update- protected route- updates the user profile
+ */
 
 export const updateUserProfile = (user) => async (dispatch, getState) => {
   try {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Badge, Image } from 'react-bootstrap';
-import Rating from '../Rating';
+import Rating from '../common/Rating';
 
 function DetailsHeading({ singleFund }) {
   return (

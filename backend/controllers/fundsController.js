@@ -26,4 +26,12 @@ const getFundById = asyncHandler(async (req, res) => {
   }
 });
 
-export { getAllFunds, getFundById };
+// @desc send the single fund details based on id
+//  @route GET /api/funds/search
+//  @access Private
+
+const getFilteredFund = async (req, res) => {
+  res.send('hello');
+};
+
+export { getAllFunds, getFundById, getFilteredFund };
