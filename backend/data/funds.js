@@ -4,7 +4,7 @@ const funds = [
   {
     id: 103362,
     name: 'ICICI Prudential Technology Direct Plan Growth',
-    logo: 'https://groww.in/images/partners/icici_groww.svg',
+    logo: 'https://coin.zerodha.com/images/fund_houses/ICICIPrudentialMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
     rating: 5.0,
@@ -802,7 +802,7 @@ const funds = [
   {
     id: 103365,
     name: 'Aditya Birla Sun Life Arbitrage Fund - Direct Plan - Growth',
-    logo: 'https://groww.in/images/partners/icici_groww.svg',
+    logo: 'https://coin.zerodha.com/images/fund_houses/ICICIPrudentialMutualFund_MF.jpg',
     oneYearReturns: '30.2% ',
     fundType: ['Equity', 'Sectoral', 'Theomatic'],
     rating: 4.1,

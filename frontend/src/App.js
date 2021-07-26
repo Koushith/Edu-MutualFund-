@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
@@ -13,21 +14,23 @@ import FundDetails from './components/screens/funds/fund-details.screen';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <main className='py-3'>
-        <Container>
-          <Route path='/' exact component={HomeScreen} />
+    <>
+      <Router>
+        <Header />
+        <main className='py-3'>
+          <Container>
+            <Route path='/' exact component={HomeScreen} />
 
-          <Route path='/featurerequest' exact component={FeatureRequest} />
-          <Route path='/profile' exact component={ProfileScreen} />
-          <Route path='/fund/:id' component={FundDetails} />
-          <Route path='/login' exact component={LoginScreen} />
-          <Route path='/register' exact component={RegisterScreen} />
-        </Container>
-      </main>
-      <Footer />
-    </Router>
+            <Route path='/featurerequest' exact component={FeatureRequest} />
+            <Route path='/profile' exact component={ProfileScreen} />
+            <Route path='/fund/:id' component={FundDetails} />
+            <Route path='/login' exact component={LoginScreen} />
+            <Route path='/register' exact component={RegisterScreen} />
+          </Container>
+        </main>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
