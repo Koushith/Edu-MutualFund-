@@ -5,6 +5,8 @@ import {
   FUND_DETAILS_REQUEST,
   FUND_DETAILS_SUCCESS,
   FUND_DETAILS_FAIL,
+  FUND_SEARCH_SUCCESS,
+  FUND_SEARCH_REQUEST,
 } from '../constants/fundConstants';
 
 // lists all finds
@@ -41,6 +43,17 @@ export const productDetailsReducer = (state = [], action) => {
       return { loading: false, singleFund: action.payload };
     case FUND_DETAILS_FAIL:
       return { loading: false, error: action.payload };
+    default:
+      return state;
+  }
+};
+
+export const searchFund = (state = [], action) => {
+  switch (action.type) {
+    case FUND_SEARCH_REQUEST:
+      return { loading: true };
+    case FUND_SEARCH_SUCCESS:
+      return { loading: false, searchResults: action.payload };
     default:
       return state;
   }

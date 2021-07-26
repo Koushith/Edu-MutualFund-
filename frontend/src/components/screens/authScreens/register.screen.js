@@ -13,6 +13,7 @@ function RegisterScreen({ location, history }) {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [message, setMessage] = useState(null);
+  const [gender, setGender] = useState('');
 
   const dispatch = useDispatch();
 

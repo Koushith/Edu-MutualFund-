@@ -1,24 +1,12 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container, NavDropdown, Form, Button } from 'react-bootstrap';
-
+import SearchFund from './SearchFund';
 import { useDispatch, useSelector } from 'react-redux';
 import { LinkContainer } from 'react-router-bootstrap';
 import { logout } from '../../redux/actions/userActions';
 import { SearchContext } from '../../redux/context/searchContext';
 
 function Header() {
-  const [search, setSearch] = useState('');
-  const [filteredFunds, setFilteredFunds] = useState([]);
-  console.log('filtered funds from header', filteredFunds);
-  const { funds } = useSelector((state) => state.fundLists);
-
-  const searchHandler = (e) => {
-    e.preventDefault();
-    const filtered = funds.filter((term) => term.name.toLowerCase().includes(search.toLowerCase()));
-
-    setFilteredFunds(filtered);
-  };
-
   // get obj from state
   const userLogin = useSelector((state) => state.userLogin);
 
@@ -40,22 +28,8 @@ function Header() {
 
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
 
-            <Form className='form-inline my-2 my-lg-0 ' onSubmit={searchHandler}>
-              <Form.Control
-                className='form-control mr-sm-2'
-                type='text'
-                placeholder='Search'
-                aria-label='Search'
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              ></Form.Control>
-
-              <Button type='submit' variant='success'>
-                Search
-              </Button>
-            </Form>
-
             <Navbar.Collapse id='basic-navbar-nav'>
+              <SearchFund />
               <Nav className='ml-auto'>
                 {userInfo ? (
                   <NavDropdown title={userInfo.name} id='userName'>
